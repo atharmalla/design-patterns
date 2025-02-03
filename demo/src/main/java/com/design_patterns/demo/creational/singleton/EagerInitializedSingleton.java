@@ -1,4 +1,4 @@
-package com.design_patterns.demo.singleton;
+package com.design_patterns.demo.creational.singleton;
 
 /*
 In eager initialization, the instance of the singleton class is created at the time of class loading.

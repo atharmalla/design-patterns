@@ -1,4 +1,4 @@
-package com.design_patterns.demo.singleton;
+package com.design_patterns.demo.creational.singleton;
 
 
 /*
