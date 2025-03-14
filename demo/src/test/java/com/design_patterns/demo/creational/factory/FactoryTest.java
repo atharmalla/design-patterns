@@ -1,5 +1,8 @@
-package com.design_patterns.demo.creational.factory_method;
+package com.design_patterns.demo.creational.factory;
 
+
+import com.design_patterns.demo.creational.factory.factory_method.example1.Computer;
+import com.design_patterns.demo.creational.factory.factory_method.example1.ComputerFactory;
 
 import static org.junit.jupiter.api.Assertions.assertSame;
 

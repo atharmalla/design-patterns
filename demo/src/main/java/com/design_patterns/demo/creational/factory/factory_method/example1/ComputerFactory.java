@@ -1,4 +1,4 @@
-package com.design_patterns.demo.creational.factory_method;
+package com.design_patterns.demo.creational.factory.factory_method.example1;
 
 
 public class ComputerFactory {

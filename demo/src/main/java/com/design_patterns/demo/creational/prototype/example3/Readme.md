@@ -1,0 +1,1 @@
+# https://www.geeksforgeeks.org/prototype-design-pattern/?ref=lbp
