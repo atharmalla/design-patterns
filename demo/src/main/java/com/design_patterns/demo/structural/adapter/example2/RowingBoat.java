@@ -1,4 +1,4 @@
-package com.design_patterns.demo.structural.example2;
+package com.design_patterns.demo.structural.adapter.example2;
 
 
 /**

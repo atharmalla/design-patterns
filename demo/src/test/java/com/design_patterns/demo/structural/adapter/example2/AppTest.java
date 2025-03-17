@@ -1,6 +1,7 @@
-package com.design_patterns.demo.structural.example2;
+package com.design_patterns.demo.structural.adapter.example2;
 
 
+import com.design_patterns.demo.structural.adapter.example2.App;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;

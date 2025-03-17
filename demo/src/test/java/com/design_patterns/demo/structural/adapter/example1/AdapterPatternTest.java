@@ -1,5 +1,10 @@
-package com.design_patterns.demo.structural.example1;
+package com.design_patterns.demo.structural.adapter.example1;
 
+
+import com.design_patterns.demo.structural.adapter.example1.SocketAdapter;
+import com.design_patterns.demo.structural.adapter.example1.SocketClassAdapterImpl;
+import com.design_patterns.demo.structural.adapter.example1.SocketObjectAdapterImpl;
+import com.design_patterns.demo.structural.adapter.example1.Volt;
 
 public class AdapterPatternTest {
 

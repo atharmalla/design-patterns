@@ -1,29 +1,28 @@
-package com.design_patterns.demo.structural.example1;
+package com.design_patterns.demo.structural.adapter.example1;
 
 
-public class SocketObjectAdapterImpl implements SocketAdapter{
-
-    //Using Composition for adapter pattern
-    private Socket sock = new Socket();
+//Using inheritance for adapter pattern
+public class SocketClassAdapterImpl extends Socket implements SocketAdapter{
 
     @Override
     public Volt get120Volt() {
-        return sock.getVolt();
+        return getVolt();
     }
 
     @Override
     public Volt get12Volt() {
-        Volt v= sock.getVolt();
+        Volt v= getVolt();
         return convertVolt(v,10);
     }
 
     @Override
     public Volt get3Volt() {
-        Volt v= sock.getVolt();
+        Volt v= getVolt();
         return convertVolt(v,40);
     }
 
     private Volt convertVolt(Volt v, int i) {
         return new Volt(v.getVolts()/i);
     }
+
 }

@@ -1,6 +1,10 @@
-package com.design_patterns.demo.structural.example2;
+package com.design_patterns.demo.structural.adapter.example2;
 
 
+import com.design_patterns.demo.structural.adapter.example2.Captain;
+import com.design_patterns.demo.structural.adapter.example2.example2.FishingBoat;
+import com.design_patterns.demo.structural.adapter.example2.FishingBoatAdapter;
+import com.design_patterns.demo.structural.adapter.example2.RowingBoat;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.util.HashMap;

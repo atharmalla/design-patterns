@@ -1,4 +1,4 @@
-package com.design_patterns.demo.structural.example1;
+package com.design_patterns.demo.structural.adapter.example1;
 
 
 public class AdapterPatternTest {
